@@ -1,0 +1,25 @@
+.date-block {
+    .react-datepicker-wrapper {
+        display: block;
+    }
+
+    .date-block__date-picker {
+        z-index: 2;
+    }
+
+    input {
+        font-size: 95%;
+        font-weight: 400;
+        line-height: 1.5;
+        display: block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        color: #768192;
+        background-color: #FFF;
+        background-clip: padding-box;
+        border: 1px solid #D8DBE0;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+}

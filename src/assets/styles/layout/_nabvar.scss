@@ -1,0 +1,17 @@
+@import "../abstracts/mixins";
+
+.navbar__logo {
+    height: 150px;
+    padding: 0.5rem 2rem;
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &.navbar__logo--small {
+        height: 115px;
+    }
+}

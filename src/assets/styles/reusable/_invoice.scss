@@ -1,0 +1,55 @@
+@import "../abstracts/mixins";
+
+.invoice {
+    padding: 2rem;
+
+    .user__detail,
+    .provider__detail,
+    .order__detail {
+        span {
+            font-size: 1.05rem;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+    }
+
+    .complete-totals {
+        font-size: 1.1rem;
+        width: fit-content;
+        min-width: 15%;
+        margin-top: 2rem;
+        margin-left: auto;
+        padding: 1.5rem 0;
+        background: white;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #00000026;
+
+        li {
+            padding: 0 3rem;
+
+            &:not(:last-of-type) {
+                margin-bottom: 1rem;
+            }
+
+            &.complete-totals__heading {
+                font-size: 1.12rem;
+                font-weight: bold;
+                padding-bottom: 0.5rem;
+                color: $blue-gray-color;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    .order__thumbnails {
+        gap: 1rem;
+
+        img {
+            display: block;
+            flex-basis: calc(100% / 3);
+            width: 45px;
+            height: 45px;
+        }
+    }
+}

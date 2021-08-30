@@ -1,0 +1,30 @@
+@import "fonts";
+
+//-*----------  START COLORS BASE  ----------*/
+
+$light-red-color: #d71920;
+$blue-gray-color: #595f65;
+$light-black-color: #333;
+
+//-*----------  END COLORS BASE  ----------*/
+
+//-*----------  START FONTS BASE  ----------*/
+
+$open-sans-font: "Open Sans", sans-serif;
+$base-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+//-*----------  END FONTS BASE  ----------*/
+
+//%-*=====  End of GLOBAL STYLE SECTION  ======*-//
+
+$main-font: $open-sans-font, $base-fonts;
+
+$primary-color: #207da1;
+$secondary-color: #11536d;
+$secondary-text-color: #11536d;
+$primary-text-color: #11536d;
+$primary-background-color: white;
+$secondary-background-color: #207da1;
+
+$default-font-size: 18px;
