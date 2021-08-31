@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import { generalServices } from "src/services";
 import { displayAlert } from "src/utils";
 import AddArtical from "./AddArticle";

@@ -5,7 +5,6 @@ import { CBreadcrumbRouter, CButton, CHeader, CHeaderBrand, CHeaderNav, CImg, CS
 // routes config
 import routes from "../routes";
 
-import { HeaderDropdown } from "./index";
 import { sidebarActivation } from "../store/sidebar";
 
 const Header = () => {

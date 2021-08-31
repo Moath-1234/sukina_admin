@@ -12,4 +12,4 @@ export const apiEndpoints = {
     deleteDate: "delete-consultation.php",
 };
 
-export const imageLink = "http://localhost/sukina/assets/images/";
+export const imageLink = "https://www.moeabahre.com/sukina/assets/images/";

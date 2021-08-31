@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CBadge, CCard, CCardBody, CCardHeader, CCol, CDataTable, CImg, CRow } from "@coreui/react";
-import { getBadge, rolesTypes } from "../../../utils";
+import { getBadge } from "../../../utils";
 import { imageLink } from "../../../api";
 
 export class Tables extends Component {

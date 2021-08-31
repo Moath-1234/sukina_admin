@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Table from "../base/tables/Tables";
 import { MainLoader } from "../../reusable/MainLoader";
 import { generalServices } from "../../services";
-import { CCol, CLink, CRow } from "@coreui/react";
+import { CCol, CRow } from "@coreui/react";
 import { displayAlert } from "src/utils";
 
 class Messages extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { generalServices } from "../../../services";
-import { CButton, CCol, CLink, CRow } from "@coreui/react";
+import { CCol, CLink, CRow } from "@coreui/react";
 import Tables from "src/views/base/tables/Tables";
 import { MainLoader } from "src/reusable/MainLoader";
 import { displayAlert } from "src/utils";
